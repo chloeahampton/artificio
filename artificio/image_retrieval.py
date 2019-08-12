@@ -177,7 +177,7 @@ def execute_image_retrieval(args):
     # outFile = os.path.join(outPath, "{}_tsne.png".format(modelName))
     # plot_tsne(E_train_flatten, imgs_train, outFile)
 
-    if __name__ == '__main__':
+if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--data-train-path', type=str, help='input training directory')
     parser.add_argument('--data-test-path', type=str, help='input testing directory')
